@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: $background-color;
+  background-image: $background-image;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.footer {
+  background-image: $background-image;
+  /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 0 0 auto;
+  padding: 20px;
+}
+
+.footer p {
+  margin-left: 6vw;
+}
+
+.ui.segment {
+  border: 3px solid rgba(34,36,38,.15);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .ui.cards {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+}

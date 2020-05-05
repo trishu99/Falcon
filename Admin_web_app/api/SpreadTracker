@@ -1,0 +1,6 @@
+When a new person is tested +ve for corona virus then all the contacts and next level contacts need to be tested. This continuously growing chain might not always be true, as we are bad at remembering, also sometimes contact is not direct. Such strangers are difficult to find. The only way to stop corona virus is to break this chain as said by our hon. PM Modi. Government is trying very hard to reach every person in this chain. We propose a technology solution that will help to trace this chain.
+
+Our solution uses signals(Bluetooth,Wifi,Sound etc) emitted by phones to find all nearby peers.When our app finds a nearby device then such connection is send to db via REST API. Connections are noted down for all peers, & graph is developed at server side. If anyone is found corona +ve, then graph db(SHA265 encrypted) is used for finding suspects(government work).Alert, if user is near to any suspect.Our service can be integrated with other apps like whatsapp.Tech Stack: MongoDB, Flask, Android
+
+Tracing corona chain and helping government to reach out to all the corona suspects
+
